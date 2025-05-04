@@ -1,15 +1,48 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeScreen, AboutScreen, FeaturesScreen } from '../screens';
 import { screens } from './constants';
+import { Ionicons } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
 
 export function TabNavigator() {
   return (
-    <Tab.Navigator>
-      <Tab.Screen name={screens.HomeScreen} component={HomeScreen} />
-      <Tab.Screen name={screens.AboutScreen} component={AboutScreen} />
-      <Tab.Screen name={screens.FeaturesScreen} component={FeaturesScreen} />
+    <Tab.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}
+    >
+      <Tab.Screen
+        name={screens.HomeScreen}
+        component={HomeScreen}
+        options={{
+          tabBarLabel: 'Home',
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="home" size={32} color={color} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name={screens.FeaturesScreen}
+        component={FeaturesScreen}
+        options={{
+          tabBarLabel: 'Features',
+
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="bar-chart" size={32} color={color} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name={screens.AboutScreen}
+        component={AboutScreen}
+        options={{
+          tabBarLabel: 'About',
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="information-circle" size={32} color={color} />
+          ),
+        }}
+      />
     </Tab.Navigator>
   );
 }

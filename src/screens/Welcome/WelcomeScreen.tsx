@@ -8,8 +8,9 @@ import { screens } from '@/navigation/constants';
 export const WelcomeScreen = () => {
   const nav = useNavigation();
   const handlePress = () => {
-    nav.replace(screens.TabNavigator);
+    nav.replace(screens.TabNavigator as never);
   };
+
   const { colors } = useAppTheme();
 
   const { updateTheme } = useThemeType();

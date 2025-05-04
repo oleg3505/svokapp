@@ -165,17 +165,17 @@ export const colors = {
 export type BaseColors = keyof typeof colors;
 
 export const lightThemeColors = {
-  primary: colors.blue50,
-  onPrimary: colors.blue95,
-  onPrimaryVar: colors.blue70,
-  primaryContainerLow: colors.blue95,
-  primaryContainer: colors.blue90,
-  onPrimaryContainer: colors.blue10,
-  primaryFixed: colors.blue90,
-  primaryFixedDim: colors.blue80,
-  onPrimaryFixed: colors.blue10,
-  onPrimaryFixedVar: colors.blue30,
-  inversePrimary: colors.blue90,
+  primary: colors.indigo50,
+  onPrimary: colors.indigo95,
+  onPrimaryVar: colors.indigo70,
+  primaryContainerLow: colors.indigo95,
+  primaryContainer: colors.indigo90,
+  onPrimaryContainer: colors.indigo10,
+  primaryFixed: colors.indigo90,
+  primaryFixedDim: colors.indigo80,
+  onPrimaryFixed: colors.indigo10,
+  onPrimaryFixedVar: colors.indigo30,
+  inversePrimary: colors.indigo90,
 
   secondary: colors.violet35,
   onSecondary: colors.violet98,
