@@ -1,3 +1,4 @@
+import './src/config/i18next/index';
 import { NavigationContainer } from '@react-navigation/native';
 
 import { RootNavigator } from './src/navigation/RootNavigator';
@@ -9,6 +10,7 @@ import {
 import { memo, useEffect } from 'react';
 import React from 'react';
 import { THEME } from './src/styles';
+import * as SplashScreen from 'expo-splash-screen';
 
 const AppContent = memo(() => {
   const { currentTheme } = useThemeType();

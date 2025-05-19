@@ -1,0 +1,73 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "noInternet": "No internet connection",
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "search": "Search",
+    "errors": {
+      "notFound": "Page not found",
+      "serverError": "Server error, please try again later"
+    },
+    "button": {
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    }
+  },
+  "welcomeScreen": {
+    "welcome": "Welcome to My App",
+    "title": "Explore my skills, experience, and projects in this interactive mobile resume application.",
+    "description": "This is a simple application to demonstrate localization.",
+    "nextButton": "Get Started"
+  },
+  "homeScreen": {
+    "title": "Home",
+    "name": "Oleh Kondratiuk",
+    "hiTile": "Hi, I'm Oleh",
+    "role": "React Native Developer",
+    "aboutDescription": "There you can find information about me, my skills, experience, and projects.",
+    "experience": "Experience",
+    "experienceSuffix": "years",
+    "technologies": "Technologies",
+    "technologiesSuffix": "mastered",
+    "projects": "Projects",
+    "projectsSuffix": "completed",
+    "modules": "Modules",
+    "modulesSuffix": "used",
+    "alert": {
+      "title": "Sorry",
+      "message": "I can't show you this screen fot NDA reasons. But I can tell you about my experience in the interview."
+    }
+  },
+  "settingsScreen": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "FeaturesScreen": {
+    "title": "Features",
+    "description": "This screen showcases the features of the application.",
+    "feature1": "Feature 1: User-friendly interface",
+    "feature2": "Feature 2: Fast performance",
+    "feature3": "Feature 3: Secure and reliable"
+  },
+  "errorScreen": {
+    "title": "Error",
+    "message": "An error occurred. Please try again later."
+  },
+  "aboutScreen": {
+    "title": "About",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
+  }
+}

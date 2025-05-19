@@ -2,6 +2,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeScreen, AboutScreen, FeaturesScreen } from '../screens';
 import { screens } from './constants';
 import { Ionicons } from '@expo/vector-icons';
+import { HomeNavigator } from './HomeNavigator';
 
 const Tab = createBottomTabNavigator();
 
