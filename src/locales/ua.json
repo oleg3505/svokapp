@@ -1,59 +1,73 @@
 {
   "common": {
+    "ok": "ОК",
+    "cancel": "Скасувати",
+    "yes": "Так",
+    "no": "Ні",
+    "loading": "Завантаження...",
+    "noData": "Дані відсутні",
+    "noInternet": "Немає підключення до Інтернету",
+    "retry": "Повторити",
+    "refresh": "Оновити",
+    "search": "Пошук",
     "errors": {
-      "notFound": "Page not found",
-      "serverError": "Server error, please try again later"
+      "notFound": "Сторінку не знайдено",
+      "serverError": "Помилка сервера, спробуйте пізніше"
     },
     "button": {
-      "submit": "Submit",
-      "cancel": "Cancel",
-      "delete": "Delete"
+      "submit": "Надіслати",
+      "cancel": "Скасувати",
+      "delete": "Видалити"
     }
   },
   "welcomeScreen": {
-    "welcome": "Welcome to My App",
-    "title": "Explore my skills, experience, and projects in this interactive mobile resume application.",
-    "description": "This is a simple application to demonstrate localization.",
-    "nextButton": "Get Started"
+    "welcome": "Ласкаво просимо до My App",
+    "title": "Ознайомтесь з моїми навичками, досвідом і проєктами в цьому інтерактивному мобільному резюме.",
+    "description": "Це простий додаток для демонстрації локалізації.",
+    "nextButton": "Почати"
   },
   "homeScreen": {
-    "title": "Home",
-    "name": "Oleh Kondratiuk",
-    "hiTile": "Hi, I'm Oleh",
-    "role": "React Native Developer",
-    "aboutDescription": "There you can find information about me, my skills, experience, and projects.",
-    "experience": "Experience",
-    "experienceSuffix": "years",
-    "technologies": "Technologies",
-    "technologiesSuffix": "mastered",
-    "projects": "Projects",
-    "projectsSuffix": "completed",
-    "modules": "Modules",
-    "modulesSuffix": "used"
+    "title": "Головна",
+    "name": "Олег Кондратюк",
+    "hiTile": "Привіт, я Олег",
+    "role": "Розробник React Native",
+    "aboutDescription": "Тут ви знайдете інформацію про мене, мої навички, досвід та проєкти.",
+    "experience": "Досвід",
+    "experienceSuffix": "років",
+    "technologies": "Технології",
+    "technologiesSuffix": "вивчені",
+    "projects": "Проєкти",
+    "projectsSuffix": "завершено",
+    "modules": "Модулі",
+    "modulesSuffix": "використано",
+    "alert": {
+      "title": "Вибачте",
+      "message": "Я не можу показати вам цей екран з причин NDA. Але я можу розповісти про свій досвід на співбесіді."
+    }
   },
   "settingsScreen": {
-    "title": "Settings",
-    "language": "Language",
-    "theme": "Theme",
-    "darkMode": "Dark Mode",
-    "lightMode": "Light Mode"
+    "title": "Налаштування",
+    "language": "Мова",
+    "theme": "Тема",
+    "darkMode": "Темна тема",
+    "lightMode": "Світла тема"
   },
   "FeaturesScreen": {
-    "title": "Features",
-    "description": "This screen showcases the features of the application.",
-    "feature1": "Feature 1: User-friendly interface",
-    "feature2": "Feature 2: Fast performance",
-    "feature3": "Feature 3: Secure and reliable"
+    "title": "Функціонал",
+    "description": "Цей екран демонструє можливості застосунку.",
+    "feature1": "Функція 1: Зручний інтерфейс",
+    "feature2": "Функція 2: Висока продуктивність",
+    "feature3": "Функція 3: Безпечний і надійний"
   },
   "errorScreen": {
-    "title": "Error",
-    "message": "An error occurred. Please try again later."
+    "title": "Помилка",
+    "message": "Виникла помилка. Будь ласка, спробуйте пізніше."
   },
   "aboutScreen": {
-    "title": "About",
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "address": "Address"
+    "title": "Про мене",
+    "name": "Ім’я",
+    "email": "Електронна пошта",
+    "phone": "Телефон",
+    "address": "Адреса"
   }
 }

@@ -11,6 +11,8 @@ import { memo, useEffect } from 'react';
 import React from 'react';
 import { THEME } from './src/styles';
 import * as SplashScreen from 'expo-splash-screen';
+import i18n from './src/config/i18next/index';
+import { useSettingsStore } from './src/stores/useSettingsStore';
 
 const AppContent = memo(() => {
   const { currentTheme } = useThemeType();
@@ -23,6 +25,10 @@ const AppContent = memo(() => {
 });
 
 export default function App() {
+  const { language } = useSettingsStore();
+
+  // Change language at runtime
+  i18n.changeLanguage(language);
   const init = async () => {
     await ThemeService.init();
   };
