@@ -9,14 +9,15 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.svok.app"
+      "bundleIdentifier": "com.kreolko.svokapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.kreolko.svokapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
