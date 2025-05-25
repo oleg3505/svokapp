@@ -7,7 +7,6 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-
     "ios": {
       "supportsTablet": true
     },
@@ -31,6 +30,11 @@
           "image": "./assets/images/splash-icon.png"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6873a4e0-8e16-40a3-9df7-d0f8681517c1"
+      }
+    }
   }
 }
