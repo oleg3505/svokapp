@@ -13,6 +13,7 @@ import { THEME } from './src/styles';
 import * as SplashScreen from 'expo-splash-screen';
 import i18n from './src/config/i18next/index';
 import { useSettingsStore } from './src/stores/useSettingsStore';
+import { StatusBar } from 'expo-status-bar';
 
 const AppContent = memo(() => {
   const { currentTheme } = useThemeType();
@@ -20,6 +21,7 @@ const AppContent = memo(() => {
   return (
     <NavigationContainer theme={THEME[currentTheme]}>
       <RootNavigator />
+      <StatusBar style={currentTheme === 'light' ? 'dark' : 'light'} />
     </NavigationContainer>
   );
 });
@@ -27,8 +29,10 @@ const AppContent = memo(() => {
 export default function App() {
   const { language } = useSettingsStore();
 
-  // Change language at runtime
-  i18n.changeLanguage(language);
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [language]);
+
   const init = async () => {
     await ThemeService.init();
   };
