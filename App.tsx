@@ -15,6 +15,8 @@ import i18n from './src/config/i18next/index';
 import { useSettingsStore } from './src/stores/useSettingsStore';
 import { StatusBar } from 'expo-status-bar';
 
+SplashScreen.preventAutoHideAsync();
+
 const AppContent = memo(() => {
   const { currentTheme } = useThemeType();
 
@@ -39,6 +41,7 @@ export default function App() {
 
   useEffect(() => {
     init();
+    SplashScreen.hideAsync();
   }, []);
 
   return (
